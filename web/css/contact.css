@@ -1,0 +1,23 @@
+.contact-page-title{
+	padding-top: 30px;
+	padding-bottom: 30px;	
+}
+.address{
+	display: flex;
+	padding: 2px 0;
+}
+.church-name{
+	padding-bottom: 15px;
+}
+.tel-email{
+	display: flex;
+	padding-top: 20px;
+}
+.contact-wrapper{
+	border-bottom: 3px dotted grey;
+	padding-bottom: 25px;
+}
+.map{
+	padding-top: 30px;
+	padding-bottom:  30px;
+}

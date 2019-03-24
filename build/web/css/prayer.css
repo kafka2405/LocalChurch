@@ -1,0 +1,26 @@
+.intro-prayer__title{
+	padding-top: 28px;
+	padding-bottom: 20px;
+}
+.intro-prayer__content{
+	padding-bottom: 20px;
+	border-bottom: 3px dotted gray;
+}
+.prayer__title{
+	padding-top: 20px;
+}
+
+.prayer__content{
+	padding-bottom: 20px;
+	border-bottom: 3px dotted gray;
+}
+.prayer__img{
+	width: 50%;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.prayer__link{
+    text-decoration: none;
+    color: #000;
+}

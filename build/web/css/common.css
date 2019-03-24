@@ -1,0 +1,273 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #7769c1;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/*Calculated Witdh on percentage according to the whole page size */
+.col-1 {
+    width: 8.33%
+}
+
+.col-2 {
+    width: 16.66%
+}
+
+.col-3 {
+    width: 25%
+}
+
+.col-4 {
+    width: 33.33%
+}
+
+.col-5 {
+    width: 41.66%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-7 {
+    width: 58.33%
+}
+
+.col-8 {
+    width: 66.66%
+}
+
+.col-9 {
+    width: 75%
+}
+
+.col-10 {
+    width: 83.33%
+}
+
+.col-11 {
+    width: 91.66%
+}
+
+.col-12 {
+    width: 100%
+}
+
+.default-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-section-header {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.8px;
+    font-family: serif;
+}
+
+.text-element-header {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    font-family: serif;
+}
+
+.text-date-time {}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.alignment {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 24px rgba(0, 0, 0, .8);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*---------------HEADER SECTION-----------------*/
+.header {
+    background-color: #a51201;
+}
+
+.header-wrapper {
+    height: 145px;
+    display: flex;
+    align-items: center;
+}
+
+.header__image {
+    padding-top: 25px;
+    width: 95px;
+    height: 95px;
+}
+
+.header__title {
+    color: #ffb03b;
+    font-size: 47px;
+    padding: 6px 0;
+    font-weight: 700;
+    font-family: serif;
+}
+
+.header__subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 2px 0;
+    color: #fff;
+    font-family: seif;
+}
+
+/*------------------------NAV-------------------*/
+.navigation {
+    background-color: #379698;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.navigation__list {
+    list-style: none;
+    display: flex;
+    margin-left: -35px;
+    margin-bottom: 0;
+}
+
+.navigation__link {
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.navigation__link:hover {
+    text-decoration: underline;
+
+}
+
+.navigation__link--active {
+    font-weight: bold;
+}
+
+/*------------------------------------------------*/
+.main {
+    background-color: #d9e0ff;
+}
+
+.main-wrapper {
+    display: flex;
+}
+
+/*-------------------------------------------------*/
+
+.right-col {
+    padding-top: 28px;
+    margin-left: 20px;
+}
+
+.sharing {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.sharing__heading {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.sharing__content {
+    margin-top: -5px;
+    padding-bottom: 2px;
+    margin-left: -15px;
+}
+
+.sharing__list {
+    list-style: none;
+    margin-left: -10px
+}
+
+.sharing__item {
+    display: flex;
+    margin: 2px 0;
+}
+
+.sharing__icon {
+    /*Set this property to make image appear once*/
+    background-repeat: no-repeat;
+    /*Set background image cover the whole div*/
+    background-size: cover;
+    /*Size of image*/
+    height: 20px;
+    width: 20px;
+    /*Make background image have no margin*/
+    margin-right: 5px;
+}
+
+.sharing__icon--fb {
+    background-image: url("../img/icon/facebook.png");
+}
+
+.sharing__icon--gg {
+    background-image: url("../img/icon/google.png");
+}
+
+.sharing__icon--twitter {
+    background-image: url("../img/icon/twitter.png");
+}
+
+.sharing__link {
+    color: #000;
+}
+
+.create {
+    margin-top: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.create__title {
+    text-align: center;
+    padding: 8px 6px 0 0;
+}
+
+.create__description {
+    padding: 10px 0 5px 15px;
+}
+
+.create__button {
+    background-color: #CB3165;
+    padding: 8px;
+    border-radius: 80px;
+    margin: 10px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/*------------------------------------------------*/
+.footer {
+    background-color: #d9e0ff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.footer__description {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    padding: 20px 0;
+    }

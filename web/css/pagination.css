@@ -1,0 +1,22 @@
+.pagination {
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+.pagination__link {
+    color: black;
+    float: left;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+.pagination--active {
+    background-color:  #9900cc;
+    color: #000;
+    border-radius: 50%;
+}
+
+.pagination__link:hover:not(.pagination--active){
+    background-color: #129cf3;
+    border-radius: 50%;
+}

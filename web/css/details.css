@@ -1,0 +1,13 @@
+.prayer-details{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.prayer-details__img{
+	width: 50%;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.prayer-title{
+	padding-top: 28px;
+}
