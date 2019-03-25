@@ -1,0 +1,24 @@
+SMAP
+details_jsp.java
+JSP
+*S JSP
+*F
++ 0 details.jsp
+details.jsp
++ 1 sharing.jsp
+sharing.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+1,12:50
+13:62,2
+15,6:64
+21:70,3
+22,3:73
+25,2:76,3
+27,4:82
+1#1,28:86
+30#0,5:114
+1#2,7:119
+34#0,5:126
+*E

@@ -1,0 +1,20 @@
+SMAP
+errors_jsp.java
+JSP
+*S JSP
+*F
++ 0 errors.jsp
+errors.jsp
++ 1 sharing.jsp
+sharing.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+1,11:50
+12:61,2
+14,14:63
+1#1,28:77
+27#0,5:105
+1#2,7:110
+31#0,5:117
+*E
